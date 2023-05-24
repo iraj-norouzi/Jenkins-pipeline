@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
           steps {
             git(url: 'https://github.com/iraj-norouzi/Jenkins-pipeline.git', branch: 'main')
-            sh 'echo "Build step"'
+            sh 'echo "Build step !!!!!!!!!! "'
           }
         }
 
