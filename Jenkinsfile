@@ -16,13 +16,6 @@ pipeline {
           }
         }
 
-        stage('SMS') {
-          steps {
-            writeFile(file: 'test', text: 'test')
-            waitForBuild '123'
-          }
-        }
-
       }
     }
 
